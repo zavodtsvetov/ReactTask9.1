@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(33, 86, 202);
+}
+.header {
+  display: grid;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Trebuchet MS";
+  background: linear-gradient(white, rgb(33, 86, 202));
+  background-clip: text;
+  color: transparent;
+}
+
+.mainContainer {
+  width: 350px;
+  min-height: 350px;
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 5%;
+  padding-left: 10px;
+}
+input {
+  margin-left: 10px;
+}
+.newTask {
+  display: flex;
+  justify-content: space-between;
+}
+.newTaskButton {
+  margin-right: 14px;
+  background-color: rgb(33, 86, 202);
+  border: none;
+  color: whitesmoke;
+  width: 70px;
+  height: 33px;
+  border-radius: 10%;
+  font-size: 20px;
+}
+.newTaskButton:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 86, 202);
+  border: 1px solid rgb(33, 86, 202);
+}
+
+.buttonShowAll {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border: none;
+  background-color: aliceblue;
+  max-width: 30px;
+  max-height: 30px;
+}
+.buttonShowAll:hover {
+  font-size: 25px;
+}
+
+.inputTask {
+  border: none;
+  width: 100px;
+}
+.inputTask :hover {
+  text-decoration: none;
+}
+
+.taskContainer {
+  background-color: whitesmoke;
+  margin-top: 20px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 5px;
+  border: 0.5px solid grey;
+  margin: 10px auto auto auto;
+  width: 320px;
+  height: 30px;
+  margin-bottom: 5px;
+  background-color: rgb(227, 247, 249);
+}
+
+.deleteButton {
+  position: absolute;
+  right: 0;
+  background-color: rgb(227, 247, 249);
+  border: none;
+}
+.deleteButton:hover {
+  box-shadow: inset 1px 1px 150px white;
+  background-color: rgb(227, 247, 249);
+  font-size: 15px;
+}
+
+.updateButton {
+  position: absolute;
+  right: 30px;
+  background-color: rgb(227, 247, 249);
+  border: none;
+}
+.updateButton:hover {
+  box-shadow: inset 1px 1px 150px white;
+  background-color: rgb(227, 247, 249);
+  font-size: 15px;
+}
